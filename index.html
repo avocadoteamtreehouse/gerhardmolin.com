@@ -4,123 +4,179 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mobile Friendly Portfolio</title>
+    <title>Gerhard Molin's Portfolio</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
 </head>
 <body>
-<div class="wrap clearfix">
-    <nav class="main-nav clearfix">
-        <h1 class="name">Gerhard Molin</h1>
-        <ul class="nav">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#port">Portfolio</a></li>
-            <li><a href="#ski">Skills</a></li>
-            <li><a href="#con">Contact</a></li>
+    <nav class="main-nav">
+        <h1>Gerhard Molin</h1>
+        <p>Imagine. Create. Collaborate.</p>
+        <ul class="nav-items">
+            <li><a href="#about">Who Am I?</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#core-skills">My Core Skills</a></li>
+            <li><a href="#contact">Contact Me</a></li>
         </ul>
     </nav>
-    <header id="home" class="welcome clearfix">
-        <img src="images/responsive-layout-profile.png" alt="That's me!" class="image"/>
-        <div class="description">
-            <p> Hi! I am an entrepreneur, UX designer / researcher and game designer. After spending some time in academia as PhD researcher, I founded my first company Unserious in 2016. 
-            I am now eager to learn front-end development.</p>
+    <div class="first-row-about" id="about">
+        <img src="images/gerhard.jpg" alt="" class="profile-img">
+       <div class="row-title">
+           <h2>Who am I?</h2>
+       </div>
+        <p>I am Gerhard Molin, but please call me.Gary (like the snail in SpongeBob SquarePants).</p>
+        <p>I am an entrepreneur, product strategist and game designer (currently learning coding).</p>
+    </div>
+
+    <div class="second-row-transition">
+        <div class="transition-row-title">
+            <p>Want to know more about me?</p>
         </div>
-    </header>
-
-    <div id="port" class="portfolio clearfix">
-            <h3>Portfolio</h3>
-            <div class="marketing col">
-                <img src="images/portfolio-1.png" alt="Portfolio 1" class="img-p1"/>
-                <h2>Marketing Page</h2>
-                <p>This project shows the front page of a marketing website meant for a specific business I'm interested.</p>
-            </div>
-            <div class="search col">
-                    <img src="images/portfolio-2.png" alt="Portfolio 2" class="img-p2"/>
-                    <h2>Search Page</h2>
-                    <p>This project searches through a specific database to find information that the user is trying to look up.</p>
-            </div>
-
-            <div class="travel col">
-                    <img src="images/portfolio-3.png" alt="Portfolio 3" class="img-p3"/>
-                    <h2>Travel App</h2>
-                    <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
-            </div>
-
-            <div class="map col">
-                    <img src="images/portfolio-4.png" alt="Portfolio 4" class="img-p4"/>
-                    <h2>Map of Favorite Spots</h2>
-                    <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
-            </div>
-            <div class="photo col">
-                    <img src="images/portfolio-5.png" alt="Portfolio 4" class="img-p5"/>
-                    <h2>Photo Gallery</h2>
-                    <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p> 
-            </div>
-
-            <div class="calculator col">
-                    <img src="images/portfolio-6.png" alt="Portfolio 4" class="img-p6"/>
-                    <h2>Calculator</h2>
-                    <p>Someone can enter the numbers they want, and press a big blue button and get the result.</p> 
+        <div class="transition-row-copy">
+                <p>Then use your awesome scroll down skill to discover more!</p>
             </div>
     </div>
 
-<div id="ski" class="skills clearfix">
-        <h3>Core Skills</h3>
-        <div class="skill-1 box">
-            <h2>Entrepreneuship</h2>
-            <p>Entrepreneurial mindset with a "Lean Startup" approach to tackle & validate assumption through experiments in order to innovate customer-centric solutions. 
-            I believe in early validation with the least amount of resources, also called pretotyping. 
-            I also believe that entrepreneurship is partly science and partly art, hence, I believe in embracing the chaos for coming up with radical innovations. </p>
+    <div class="third-row-experience" id="experience">
+        <div class="content-row-title">
+            <h2>Experience</h2>
         </div>
-
-        <div class="skill-2 box">
-                <h2>Product Strategy</h2>
-                <p>Being a human-centered designer I push for customer-centric solutions. 
-                    I am radically inspired by people and show create empathy for the user. 
-                    In the design research I use qualitative research (eg by organising fieldwork, facilitating co-creation sessions, conducting contextual interviews, 
-                    performing usability studies, etc.). I interpret and translate rich user insights towards a clear vision for innovative products, 
-                    services, spaces, interactions and experiences. I test early prototypes iteratively with users to move ideas closer to market launch.</p>        
-                </div>
-
-        <div class="skill-3 box">
-                <h2>Game Design</h2>
-                <p>I am inspired to create games that bring people together, push the boundaries of game design and spark's people imagination to they can re-discover their inner child. 
-                    I am a huge fan of pen & paper games and connecting the digital and analogue world to harness the benefits of both.</p>
-        </div>
-
-        <div class="skill-4 box">
-                <h2>Creative-Problem Solving</h2>
-                <p>I am a forward-looking creative problem solver who can connect the dots that seem at first completely unrelated. 
-                    I believe in connecting research & design to come up with novel solutions. 
-                    I love digging into a vast and diverse amount of data and information to come up with new insights.</p>           
-        </div>
-
-</div>
-
-    <div id="con" class="contact">
-            <h3>Contact</h3>
-            <p class="contact-msg">If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p> 
-            <p class="contact-details">Phone</p><p class="contact-details"><b>+358 45 220 3414</b></p><br>
-            <p class="contact-details">Email</p><p class="contact-details"><b><a href="mailto:gerhard@minimumbadass.com">gerhard@minimumbadass.com</a></b></p>
+        <div class="content-row-subtitle">
+                <p>Click to download my latest CV :-)</p>
+            </div>
+        <a href="documents/Resume_gm3.1.pdf"><img src="images/resume.jpg" alt="That's me!" class="resume-img"></a>
     </div>
 
+    <div class="fourth-row-projects" id="projects">
+        <div class="content-row-title">
+            <h2>Projects</h2>
+        </div>
+        <div class="content-row-subtitle">
+            <p>Those are the projects I am most proud of and learned the most from.</p>
+            <p>Click on a project if you want to read more about it.</p>
+        </div>
+        <div class="projects-wrap">
+            <div class="project-1">
+                <img src="images/placeholder-img.png" alt="" class="project-1-image">
+                <div class="project-title">ddd</div>
+            </div>
 
+            <div class="project-2">
+                    <img src="images/placeholder-img.png" alt="" class="project-2-image">
+                    <div class="project-title">ddd</div>
+            </div>
 
-    <footer id="footer-mobile">
-        <h3 class="name-footer">Gerhard Molin</h3>
-        <h3 class="back"><a href="#home">Back to top</a></h3>
-    </footer>
+            <div class="project-3">
+                    <img src="images/placeholder-img.png" alt="" class="project-3-image">
+                    <div class="project-title">ddd</div>
+            </div>
+
+            <div class="project-4">
+                    <img src="images/placeholder-img.png" alt="" class="project-4-image">
+                    <div class="project-title">ddd</div>
+            </div>
+
+            <div class="project-5">
+                    <img src="images/placeholder-img.png" alt="" class="project-5-image">
+                    <div class="project-title">ddd</div>
+            </div>
+
+            <div class="project-6">
+                    <img src="images/placeholder-img.png" alt="" class="project-6-image">
+                    <div class="project-title">ddd</div>
+            </div>
+
+            <div class="project-7">
+                    <img src="images/placeholder-img.png" alt="" class="project-7-image">
+                    <div class="project-title">ddd</div>
+            </div>
+
+            <div class="project-8">
+                    <img src="images/placeholder-img.png" alt="" class="project-8-image">
+                    <div class="project-title">ddd</div>
+            </div>
+        </div>
+    </div>
+
     
-    <footer id="footer-desktop">
-            <h3 class="name-footer">Gerhard Molin</h3>
-                <ul class="nav">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#port">Portfolio</a></li>
-                    <li><a href="#ski">Skills</a></li>
-                    <li><a href="#con">Contact</a></li>
-                </ul>
+    <div class="fifth-row-transition">
+
+        </div>
+    
+    <div class="sixth-row-core-skills" id="core-skills">
+        <div class="core-skill-wrap">
+            <div class="content-row-title">
+                    <p>My Core Skills</p>
+            </div>
+            <div class="core-skill-1">
+                <h2>Entrepreneuship</h2>
+                <p>Entrepreneurial mindset with a "Lean Startup" approach to tackle & validate assumption through experiments in order to innovate customer-centric solutions. I believe in early validation with the least amount of resources, also called pretotyping. I also believe that entrepreneurship is partly science and partly art, hence, I believe in embracing the chaos for coming up with radical innovations.
+
+                    </p>
+
+            </div>
+
+            <div class="core-slill-2">
+                    <h2>Product Strategy</h2>
+                    <p>Being a human-centered designer I push for customer-centric solutions. I am radically inspired by people and show create empathy for the user. In the design research I use qualitative research (eg by organising fieldwork, facilitating co-creation sessions, conducting contextual interviews, performing usability studies, etc.). I interpret and translate rich user insights towards a clear vision for innovative products, services, spaces, interactions and experiences. I test early prototypes iteratively with users to move ideas closer to market launch.
+
+                        </p>
+
+            </div>
+
+
+            <div class="core-slill-3">
+                    <h2>Game Design</h2>
+                    <p>I am inspired to create games that bring people together, push the boundaries of game design and spark's people imagination to they can re-discover their inner child. I am a huge fan of pen & paper games and connecting the digital and analogue world to harness the benefits of both.
+
+                        </p>
+
+            </div>
+
+
+            <div class="core-slill-4">
+                    <h2>Creative-Problem Solving</h2>
+                    <p>I am a forward-looking creative problem solver who can connect the dots that seem at first completely unrelated. I believe in connecting research & design to come up with novel solutions. I love digging into a vast and diverse amount of data and information to come up with new insights.
+
+                        </p>
+
+            </div>
+
+
+            <div class="core-slill-5">
+                    <h2>Pitching & Storytelling</h2>
+                    <p>The best companies are the ones that tell a story. I believe in empathetic storytelling to reach your audience and deliver your message clearly. Storytelling continues beyond the pitch, hence, using as many channels as possible to deliver your story using various media formats (video, audio or text).
+
+                        </p>
+
+            </div>
+
+
+            <div class="core-slill-6">
+                    <h2>Community Building</h2>
+                    <p>I believe in engaging your community through co-creating creative content that is valuable for the community. Also, it is important to engage your core audience early in the development in order to build a strong community that is necessary to succeed in the 21st century.
+
+                        </p>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="seventh-row-contact" id="contact">
+            <div class="content-row-title">
+                    <h2>Let's Imagine, Create and Collaborate</h2>
+                </div>
+                <div class="content-row-subtitle">
+                    <p>If you are ready for transforming chaos into innovation, then let's have a coffee!</p>
+                </div>
+    </div>
+
+    <footer>
+
     </footer>
-</div>
 </body>
 </html>
