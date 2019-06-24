@@ -7,27 +7,57 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background: #fafafa;
+  background: #f0f0ed;
   margin: 0;
   padding: 0;
 }
 
 /* General Design */
 
-/* Pseudo-Classes /*
+p {
+  color: #739696;
+}
+
+h2 {
+  margin-top: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 17px;
+}
+
+.h2-border {
+  margin-top: 10px;
+  border-top: 3px solid #333636;
+  max-width: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.4em;
+  text-align: center;
+}
+
+/* Pseudo-Classes */
+
+.nav-items li:hover{
+  background: #363c44;
+}
 
 /* Links and Buttons */
 
 a {
   text-decoration: none;
-  color: #66bead;
+  color: #4db3dd;
 }
 
 /* Images Design */
 
 .profile-img {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   border: 2px solid white;
 }
@@ -51,15 +81,27 @@ a {
 }
 /* Section Design */
 
+.margin-wrapper {
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
 /** Mobile Header Navigation **/
 .main-nav {
   background: url("../images/header_bg_mobile.png") no-repeat top center;
-  background-color: #66bead;
   background-size: cover;
   overflow: hidden;
   display: inline-block;
   width: 100%;
-  height: 300px;
+  height: auto;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+}
+
+.profile-img {
+  margin-top: 30px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .main-nav h1 {
@@ -68,7 +110,6 @@ a {
   font-weight: 400;
   text-transform: uppercase;
   color: white;
-  background-color: rgba()
 }
 
 .main-nav p {
@@ -77,12 +118,15 @@ a {
   color: white;
   font-size: 20px;
   font-weight: 200;
+  padding-bottom: 20px;
 }
 
 .nav-items {
   text-align: center;
   margin-top: 20px;
   list-style-type: none;
+  margin-bottom: 50px;
+
 }
 
 .nav-items li {
@@ -90,10 +134,79 @@ a {
   padding: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
-  max-width: 40%;
+  max-width: 60%;
   margin-right: auto;
   margin-left: auto;
   border-radius: 5px;
+}
+
+
+/** Who Am I Section **/
+
+.first-row-about {
+  margin-bottom: 50px;
+  height: 250px;
+  position: relative;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.first-row-about .h2-border {
+  margin-bottom: 20px;
+}
+
+.first-row-about p {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/** Transition 1 **/
+
+.second-row-transition {
+  background: url("../images/transition_bg.jpg") no-repeat top center;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  padding-top: auto;
+  padding-bottom: auto;
+  position: relative;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.h2-transition {
+  font-size: 1.4em;
+  font-weight: 500;
+  color: white;
+
+}
+
+.h2-border-transition {
+  margin-top: 10px;
+  border-top: 3px solid white;
+  max-width: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.second-row-transition p {
+  color: white;
+  font-style: italic;
+  font-size: 1.4em;
+  font-weight: 400;
 }
 
 
