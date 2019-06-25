@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background: #f0f0ed;
+  background: #ffffff;
   margin: 0;
   padding: 0;
 }
@@ -40,11 +40,25 @@ p {
   text-align: center;
 }
 
+
+/* Transitions */
+
+.resume-img {
+  transition: transform .5s ease-out, box-shadow .5s ease-out;
+
+}
+
 /* Pseudo-Classes */
 
 .nav-items li:hover{
   background: #363c44;
 }
+
+.resume-img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 3px 26px rgba(51,54,54,.4);
+}
+
 
 /* Links and Buttons */
 
@@ -67,8 +81,8 @@ a {
 .resume-img {
   width: 200px;
   height: auto;
-  border: 1px solid black;
-  border-radius: 2%;
+  border: 1px solid #333636;
+  border-radius: 4%;
 }
 
 .project-1-image,
@@ -78,8 +92,10 @@ a {
 .project-5-image,
 .project-6-image,
 .project-7-image,
-.project-8-image {
+.project-8-image,
+.project-9-image {
   max-width: 100%;
+  box-shadow: 0 3px 6px rgba(51,54,54,.4);
 }
 /* Section Design */
 
@@ -168,7 +184,7 @@ a {
   padding-right: 30px;
 }
 
-/** Transition 1 **/
+/** Transition Row 1 **/
 
 .second-row-transition {
   background: url("../images/transition_bg.jpg") no-repeat top center;
@@ -212,6 +228,31 @@ a {
   font-weight: 400;
 }
 
+/** Experience **/
+
+.resume {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.resume img {
+  box-shadow: 0 3px 6px rgba(51,54,54,.4);
+}
+
+.third-row-experience {
+  margin-bottom: 50px;
+}
+
+
+.content-row-subtitle {
+  margin-top: 20px;
+}
+
+/** Projects **/
+
+.content-row-subtitle {
+  margin-bottom: 20px;
+}
 
 /* Media Queries */
 
