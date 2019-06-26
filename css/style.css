@@ -69,7 +69,6 @@ a {
 
 a:hover {
   color: #ed6463;
-
 }
 
 /* Images Design */
@@ -167,17 +166,21 @@ a:hover {
 /** Who Am I Section **/
 
 .first-row-about {
-  margin-bottom: 50px;
-  height: 250px;
-  position: relative;
+  /*margin-bottom: 50px;*/
+  /* height: 250px; */
+  max-height: 200px;
+  /* position: relative; */
+  margin-top: 100px;
+  margin-bottom: 100px;  
 }
 
 .vertical-center {
-  margin: 0;
+
+  /* margin: 0;
   position: absolute;
   top: 50%;
   -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  transform: translateY(-50%); */
 }
 
 .first-row-about .h2-border {
@@ -197,23 +200,16 @@ a:hover {
   background-size: cover;
   width: 100%;
   height: 300px;
-  padding-top: auto;
-  padding-bottom: auto;
-  position: relative;
-}
-
-.vertical-center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  padding-right: auto;
+  padding-left: auto;
+  */ position: relative; */
 }
 
 .h2-transition {
   font-size: 1.4em;
   font-weight: 500;
   color: white;
+  padding-top: 100px;
 }
 
 .h2-border-transition {
@@ -290,7 +286,7 @@ a:hover {
   height: 300px;
   padding-top: auto;
   padding-bottom: auto;
-  position: relative;
+  /* position: relative; */
 }
 
 .fifth-row-transition p {
@@ -362,7 +358,7 @@ a:hover {
 .phone-me,
 .find-me {
   text-align: justify;
-  width: 160px;
+  max-width: 100%;
   margin-top: 20px;
 }
 
@@ -372,6 +368,7 @@ a:hover {
     display: block;
     margin: 0 auto;
     padding-bottom: 20px;
+    max-width: 100%;
 }
 
 .email-me p, 
@@ -412,6 +409,94 @@ a:hover {
 @media (min-width:768px) {
 
 
+/* Header */
 
+.profile-img {
+  background-image: url("../images/gerhard.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  border: 2px solid white;
+  width: 180px;
+  height: 180px;
+}
+
+  .main-nav { /* This produces a parallax effect for the background image */ 
+    background-image: url("../images/header_bg_web.png");
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+  }
+
+  .header-flex-1{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: row;
+    justify-content: center;
+    margin-top: 50px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .flex-header-title {
+    flex: 2;
+    align-self: center;
+    /* margin-right: 80px; */
+  }
+
+  .flex-header-image {
+    flex: 1;
+    /* margin-left: 80px; */
+  }
+
+  .main-nav h1 {
+    font-size: 3em;
+    font-weight: 500;
+  }
+
+  .main-nav p {
+    font-size: 1.6em;
+    font-weight: 400;
+  }
+
+  .nav-items {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    justify-content: center;
+    border-top: 3px solid white;
+    border-bottom: 1px solid white;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 600px;
+  }
+
+  .nav-items li {
+    background: none;
+  }
+
+  .nav-items a {
+    color: white;
+  }
+
+  .nav-items li:hover{
+    text-decoration: underline;
+    background: none;
+    }
+
+   /** Who Am I Section **/
+
+  .first-row-about p {
+    padding-left: 150px;
+    padding-right: 150px;
+  } 
+
+}
 
 }
