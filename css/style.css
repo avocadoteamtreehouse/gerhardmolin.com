@@ -67,6 +67,11 @@ a {
   color: #4db3dd;
 }
 
+a:hover {
+  color: #ed6463;
+
+}
+
 /* Images Design */
 
 .profile-img {
@@ -251,6 +256,7 @@ a {
   padding-bottom: 15px;
 }
 
+/** Projects **/
 
 .fourth-row-projects h3 {
   font-weight: 400;
@@ -260,7 +266,7 @@ a {
   margin-bottom: 15px;
 }
 
-.fourth-row-projects p {
+.lighter-black {
   color: #363c44;
   font-weight: 200;
   margin-bottom: 20px;
@@ -268,7 +274,6 @@ a {
   margin-left: 20px;
 }
 
-/** Projects **/
 
 .content-row-subtitle {
   margin-bottom: 20px;
@@ -298,6 +303,115 @@ a {
 
 /** Core Skills **/
 
+.dark-bg {
+  background: #333636;
+}
+
+.sixth-row-core-skills h1 {
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 20px;
+  color: #f8cd46;
+  font-weight: 350;
+
+}
+
+.sixth-row-core-skills p {
+  color: white;
+  font-weight: lighter;
+  font-size: 1em;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+}
+
+.core-skill-1,
+.core-skill-2,
+.core-skill-3,
+.core-skill-4,
+.core-skill-5,
+.core-skill-6 {
+  margin-bottom: 40px;
+}
+
+/** Contact Me **/
+
+
+.seventh-row-contact {
+  margin-bottom: 30px;
+}
+.contact-buttons {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.email-me,
+.phone-me {
+  order: 1;
+  flex-grow: 1;
+}
+
+.find-me {
+  order: 2;
+  flex-grow: 1;
+}
+
+.email-me, 
+.phone-me,
+.find-me {
+  text-align: justify;
+  width: 160px;
+  margin-top: 20px;
+}
+
+.email-me img, 
+.phone-me img,
+.find-me img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.email-me p, 
+.phone-me p,
+.find-me p {
+  font-size: 1em;
+  color: black;
+}
+
+/** Footer **/
+
+.footer-flex{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-right: 20px;
+  margin-lefT:20px;
+  border-top: 1px solid black;
+}
+.footer-flex h3 {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.back {
+  font-weight: bold;
+}
+
+.name-footer {
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
 
 /* Media Queries */
 
+@media (min-width:768px) {
+
+
+
+
+}
