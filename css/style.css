@@ -577,7 +577,10 @@ a:hover {
 
 .project-flex img {
   transition: transform .5s ease-out, box-shadow .5s ease-out;
+}
 
+.profile-img {
+  transition: transform .5s ease-out;
 }
 
 
@@ -587,6 +590,10 @@ a:hover {
 .project-flex img:hover {
   transform: scale(1.1);
   box-shadow: 0 3px 26px rgba(51,54,54,.4);
+}
+
+.profile-img:hover {
+  transform: scale(1.1) rotate(360deg);
 }
 
  /** Who Am I Section **/
