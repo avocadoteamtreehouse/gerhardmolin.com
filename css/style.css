@@ -389,7 +389,7 @@ a:hover {
   letter-spacing: 2px;
 }
 
-/* Project-1 */
+/* Project Template */
 
 .project-nav {
   background-image: url("../images/4_steps_mb.png");
@@ -397,7 +397,50 @@ a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
+}
 
+.project-header-container {
+  display:flex;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.project-header-container p {
+  background: rgba(82,82,82,.7);
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 400;
+  font-size: 0.9em;
+}
+
+.project-header-container p:hover {
+  background: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color:rgba(82,82,82,1);
+  font-weight: 400;
+  font-size: 0.9em;
+}
+
+.arrow-left::before {
+  content: url("../images/arrow_left_white.svg");
+  display:inline-block;
+  height:6px;
+  width:6px;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-top: 3px;
+}
+
+.arrow-left:hover::before {
+  content: url("../images/arrow_left_black.svg");
+  display:inline-block;
+  height:6px;
+  width:6px;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-top: 3px;
 }
 
 .project-description {
@@ -406,6 +449,11 @@ a:hover {
   margin-bottom: 20px;
 }
 
+
+.project-description h1 {
+ text-transform: uppercase;
+ font-weight: 400;
+}
 .project-description h1,
 .project-description h2 {
  text-align: left;
@@ -620,6 +668,8 @@ a:hover {
 }
 
 }
+
+
 
 
 @media (min-width:1024px) {
